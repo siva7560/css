@@ -1,0 +1,11 @@
+FONT WEIGHT :
+    100-900
+    400 FOR BOLD.
+
+FONT SIZE:
+    16PX for general alphabet.
+
+TEXT TRANSFORM:
+   text-transform:uppercase,lowercase,capitalize(for letter of each word)
+
+                                                                               

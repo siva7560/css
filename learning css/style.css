@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;   
+}
+#navbar{
+    height: 55px;
+    width:100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#nav-logo{
+    height: 45px;
+    width: 120px;
+    margin-right: 30px;
+}
+#logo{
+
+    height: 40px;
+    width: 100px;
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.4cDH8tq0xFTEKi8WjXpg8wHaCy&pid=Api&P=0&h=180");
+    background-size:contain;
+    
+   
+    
+}
+#nav-logo{
+    border: 1px solid transparent;
+}
+#nav-logo:hover{
+    border: 1px solid white;
+}
+.add-icon{
+    display: flex;
+}
+
+#navsearch{
+    width: 620px;
+  
+    height: 40px;
+    margin-left: 40px;
+    display: flex;
+    width: fit-content;
+
+}
+#select-nav{
+    height: 40px;
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    background-color: rgb(230,230,230);
+    border: none;
+}
+#searchbox{
+     height: 40px;
+     width: 500px;
+     border: none;
+     text-align: center;
+     font-size: large;
+}
+#search-icon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: none;
+    scale: 1;
+}
+#flag{
+    height: 16px;
+    width: 26px;
+    background-image: url("data:image/png;base64,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");
+    background-size: contain;
+}
+#country{
+    margin-left: 40px;
+    display: flex;
+}
+#language{
+    width: 40px;
+    color: white;
+    background-color: black;
+    border: none;
+    margin-left: 4px;
+}
+#details{
+    margin-left: 20px;
+    width: 150px;
+    font-size: small;
+}
+#nav-cart{
+    display: flex;
+    width: 60px;
+    justify-content: space-around;
+    font-family: arial;
+    padding-top: 25px;
+}
+#carticon{
+     scale: 1.8;
+     font-size: medium;
+}
+#cartnumber{
+    color: black;
+    position: relative;
+    bottom: 24px;
+    left: 6px;
+    font-weight: 600;
+}
+#secondline{
+    height: 40px;
+    background-color: rgba(5, 5, 43, 0.671);
+    
+    color: white;
+    display: flex;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+#menu{
+   
+   
+    color: white;
+    font-weight   : 500;
+  
+}
+#bar{
+    scale: 1.3;
+}
+#options p{
+    
+   display: inline;
+   margin-right: 15px;
+   font-weight: 0.85rem;
+}
+#options{
+    width: 70%;
+}
+#deals{
+    font-weight: 0.9rem;
+}
+#hero{
+    height: 300px;
+    background-size: cover;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img21/OHL/GW/BAU/CUSTOM/Desktop_Hero_3000x1200_2copy2x._CB584609033_.jpg");
+   animation-name: siva;
+   animation-duration: 10s;
+   animation-delay: 1s;
+   animation-iteration-count: infinite;
+}
+.ele{
+    height: 420px;
+    width: 306px;
+
+    background-color: white  ;
+    display: flex;
+    justify-content: center;
+}
+#content{
+    width: 100%;
+    height: 900px;
+     background-color: rgb(194,144,95);
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+}
+.ele-pics{
+    height: 275px;
+    width: 100%;
+   display: flex;
+  flex-wrap: wrap;
+  
+   justify-content: space-around;
+   position: relative;
+   
+ 
+}
+.ele-pic{
+    height: 35%;
+    width: 45%;
+    font-size: small;
+    
+   }
+.image{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.e{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+}
+@keyframes siva {
+    0%{
+        background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img21/OHL/GW/BAU/CUSTOM/Desktop_Hero_3000x1200_2copy2x._CB584609033_.jpg");
+    }
+    25%{
+        background-image: url("img 1.jpg");
+        
+    }
+    50%{
+        background-image: url("img 2.jpg");
+       
+     
+    75%{      
+         background-image: url("img 3.jpg");
+        
+     
+    }
+    100%{
+        background-image : url("img 4.jpg");
+       
+        
+    }
+    
+}
